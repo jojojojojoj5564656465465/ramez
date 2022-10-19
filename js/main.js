@@ -276,7 +276,7 @@
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-  let birthday = "nov 12, 2022 00:00:00",
+  let birthday = "nov 12, 2022 14:00:00",
       countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
         let now = new Date().getTime(),
@@ -293,7 +293,7 @@
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-          headline.innerText = "It's our wedding!";
+          headline.innerText = "C'est notre mariage!";
           countdown.style.display = "none";
           content.style.display = "block";
 
