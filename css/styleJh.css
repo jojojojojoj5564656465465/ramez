@@ -1,0 +1,17 @@
+.flex-basis-0{
+    flex-basis: 0;
+}
+
+.flex-basis-1{
+    flex-basis: 1;
+  
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+.red{
+    background-color: red !important;
+    outline: 10px solid red;
+
+}
