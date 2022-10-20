@@ -1,17 +1,32 @@
-.flex-basis-0{
-    flex-basis: 0;
+.row {
+  outline: 2px dashed pink;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  flex-flow: row wrap;
+
+  align-items: space-between;
+  flex: 1 0 auto;
 }
 
-.flex-basis-1{
-    flex-basis: 1;
-  
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  border: 2px solid green;
+  height: 100%;
+  width: 100%;
 }
-.flex-grow-1{
-    flex-grow: 1;
+.content {
+  display: block;
+  background-color: blanchedalmond;
+  margin-bottom: 0;
+  flex: 1;
 }
-
-.red{
-    background-color: red !important;
-    outline: 10px solid red;
-
+.whenwhere-img {
+  background-color: blue;
+}
+.whenwhere-img > img {
+  width: 200px;
 }

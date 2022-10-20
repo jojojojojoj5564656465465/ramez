@@ -981,7 +981,7 @@ text-shadow: #bd945a 2px 0 20px;
 /* ======= Bride & Groom style ======= */
 .bridegroom .item {
   padding: 30px;
-  border-radius: 0px;
+  border-radius: 5px;
   background: #fff;
   position: relative;
   overflow: hidden;
