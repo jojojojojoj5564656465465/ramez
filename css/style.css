@@ -1166,11 +1166,11 @@ text-shadow: #bd945a 2px 0 20px;
 }
 
 .story-img .story-img-2 {
-  width: 30% !important;
-  height: 120px;
+  width: 10% !important;
+  height: 10px;
   position: absolute;
-  top: 15px;
-  right: 45px;
+  bottom: 0px;
+  right: 5px;
   z-index: 3;
 }
 
@@ -1191,9 +1191,9 @@ text-shadow: #bd945a 2px 0 20px;
 @media screen and (max-width: 991px) {
   .story-img .story-img-2 {
     width: 30% !important;
-    height: 135px;
+    height: 85px;
     position: absolute;
-    top: 40px;
+    bottom: 40px;
     right: 45px;
   }
 }
