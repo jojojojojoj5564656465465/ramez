@@ -1,32 +1,9 @@
-.row {
-  outline: 2px dashed pink;
+@media screen and (min-width: 1400px) {
+#couple .container {
 
-  display: flex;
-  flex-flow: row wrap;
+  width: 2800px !important;
 
-  flex-flow: row wrap;
-
-  align-items: space-between;
-  flex: 1 0 auto;
 }
 
-.item {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  border: 2px solid green;
-  height: 100%;
-  width: 100%;
 }
-.content {
-  display: block;
-  background-color: blanchedalmond;
-  margin-bottom: 0;
-  flex: 1;
-}
-.whenwhere-img {
-  background-color: blue;
-}
-.whenwhere-img > img {
-  width: 200px;
-}
+

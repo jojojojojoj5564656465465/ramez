@@ -1166,11 +1166,11 @@ text-shadow: #bd945a 2px 0 20px;
 }
 
 .story-img .story-img-2 {
-  width: 10% !important;
-  height: 10px;
+  width: 30% !important;
+  height: 100px;
   position: absolute;
-  bottom: 0px;
-  right: 5px;
+  bottom: 50px;
+  right: 125px;
   z-index: 3;
 }
 
