@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../ramez photos"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "demo1"
+  }
+}
